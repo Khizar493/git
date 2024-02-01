@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FashionHub-Your Fashion Destination</title>
+  </head>
+  <style>
+    .nav{
+        float: left;
+        text-align: center;
+        width: 100%;
+        align-items: end;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-family: calibri;
+    }
+    .nav ul li{
+        list-style-type: none;
+        float: left;
+        margin-right: 20px;
+        font-size: 23px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav a:hover {
+       background-color:lightgray;
+       border-radius: 100px;
+       padding: 9px;
+       color: black;
+    }
+    .logo{
+      width: 30%;
+    float: left;
+    }
+    .text h1{
+      font-size: 40px;
+    }
+    .text {
+    width: 104%;
+    height: 107px;
+    padding: 7px;
+ 
+}
+  </style>
+<header style="background-color:lightgrey;">
+  <div class="logo">
+    <img src ="data:image/png;base64,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" alt="fashionHub" style="height: 120px;width: 160px">
+  </div>   
+      <div class="text">
+        <i><h1>FashionHub-Your Fashion Destination</h1></i>
+      </div>
+  <div class="nav">
+      <ul>
+          <li><a href="Fashion Hub.html">Home</a></li>
+          <li><a href="Men.html" target="_blank">Men</a></li>
+          <li><a href="Women.html" target="_blank">Women</a></li>
+          <li><a href="Kids.html" target="_blank">Kids</a></li>
+      </ul>
+  </div>
+</header>
+  <hr>
+<body>
+  <ol style="float: left; font-size: 23px;">
+    <i><b><li>MEN'S COLLECTION</li></b></i>
+    <ul>
+      <li>Waistcoats</li>
+      <li>Dress shirt</li>
+      <li>Suit</li>
+      <li>Trousers</li>
+      <li>Sneakers</li>
+      </ul>
+      <i><b><li>WOMEN'S COLLECTION</li></b></i> 
+     <ul>
+      <li>Shirts</li>
+      <li>Jacket</li>
+      <li>Sweater</li>
+      <li>Dress</li>
+      <li>Jeans</li>
+     </ul>
+     <i><b><li>KID'S COLLECTION</li></b></i> 
+     <ul>
+      <li>Suit</li>
+      <li>Sweater</li>
+      <li>Trousers</li>
+      <li>Jacket</li>
+      <li>Gloves</li>
+     </ul>
+  </ol>
+<img style="padding: 20px; height: 474px; width: 69%;" src="https://t3.ftcdn.net/jpg/03/34/79/68/360_F_334796865_VVTjg49nbLgQPG6rgKDjVqSb5XUhBVsW.jpg">
+<hr>
+<div>
+<h1 style="text-align: center; background-color: lightgrey; padding: 30px;">MEN'S COLLECTION</h1>
+</div>
+<img style="width: 43%; height: 350px;" src="https://bareezeman.com/media/homepagetool/homepagetool/Waistcoat_1.png">
+<div class="block" style="float: right; width: 56%;">
+<h3 style="font-size: 28px; margin: 0;">WAISTCOATS</h3>
+<p>Price:3000PKR</p>
+<h5 style="font-size: 20px; margin: 0;"><i>Description</i></h5>
+<p>Start by basting the lining to the wear, making sure that the seams match up and the fabric is smooth and even.</p>
+<button><a href="Men.html" target="_blank">Shop Now</a></button>
+</div>
+
+<h1 style="text-align: center; background-color: lightgrey; padding: 30px;">WOMEN'S COLLECTION</h1>
+<img style="width: 43%; height: 350px;" src="https://www.limelight.pk/cdn/shop/files/Desktop_69d11453-5163-460d-8d2b-737bf3bebfad.jpg?v=1691409992">
+<div class="block" style="float: right; width: 56%;">
+<h3 style="font-size: 28px; margin: 0;">SHIRTS</h3>
+<p>Price:6000PKR</p>
+<h5 style="font-size: 20px; margin: 0;"><i>Description</i></h5>
+<p>Start by basting the lining to the wear, making sure that the seams match up and the fabric is smooth and even.</p>
+<button><a href="Women.html" target="_blank">Shop Now</a></button>
+</div>
+
+
+<h1 style="text-align: center; background-color: lightgrey; padding: 30px;">KID'S COLLECTION</h1>
+<img style="width: 43%; height: 350px;" src="https://www.kiddie.pk/cdn/shop/files/1_png_396x.webp?v=1695816252">
+<div class="block" style="float: right; width: 56%;">
+<h3 style="font-size: 28px; margin: 0;">JACKET</h3>
+<p>Price:2500PKR</p>
+<h5 style="font-size: 20px; margin: 0;"><i>Description</i></h5>
+<p>Start by basting the lining to the wear, making sure that the seams match up and the fabric is smooth and even.</p>
+<button><a href="Kids.html"  target="_blank">Shop Now</a></button>
+</div>
+</body>
+</html>
